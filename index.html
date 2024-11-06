@@ -1,80 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>test module(game)</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
- <body class="preload">
-    <div class="container">
-      <header class="header">
-        <div class="main1_sub1">
-          <h2>ROCK</h2>
-          <h2>PAPER</h2>  
-          <h2>SCISSORS</h2>  
-         </div>
-         <div id="scoreCom">
-          <div class="score__title">computer score</div>
-          <div id="score__number1">0</div>
-        </div>
-        <div id="scoreYou">
-          <div class="score__title">your score</div>
-          <div id="score__number2">0</div>
-        </div>
-      </header>
-     
-      <div class="game">
-        <img src="triangle.png" id="rotate"  />
-        <div class="rock con">
-          <div class="item">
-            <img src="rock.png"  />
-          </div>
-        </div>
-        <div class="scissor con">
-          <div class="item">
-            <img src="scissor.png"  />
-          </div>
-        </div>
-        <div class="paper con">
-          <div class="item">
-            <img src="paper.png"  />
-          </div>
-        </div>
-        <div class="rock pc">
-          <div class="item">
-            <img src="rock.png"  />
-          </div>
-        </div>
-        <div class="scissor pc">
-          <div class="item">
-            <img src="scissor.png"  />
-          </div>
-        </div>
-        <div class="paper pc">
-          <div class="item">
-            <img src="paper.png"  />
-          </div>
-        </div>
-      </div>
-      <div class="rules-btn">
-        <button class="btn-rule">RULES</button>
-      </div>
-      <div class="rule-model">
-        <div class="rule-img">
-          <div>
-            <button class="close"><img src="close.png" /></button>
-          </div>
-          <img src="rule.png"  />
-        </div>
-      </div>
 
-      <div class="win-model">
-        <h1 class="winner">YOU WIN</h1>
-        <h3 class="winner">AGAINST PC</h3>
-        <button class="play">PLAY AGAIN</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>test module(game)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="preload">
+  <div class="container">
+    <header class="header">
+      <div class="main1_sub1">
+        <h2>ROCK</h2>
+        <h2>PAPER</h2>
+        <h2>SCISSORS</h2>
+      </div>
+      <div id="scoreCom">
+        <div class="score__title">computer score</div>
+        <div id="score__number1">0</div>
+      </div>
+      <div id="scoreYou">
+        <div class="score__title">your score</div>
+        <div id="score__number2">0</div>
+      </div>
+    </header>
+
+    <div class="game">
+      <img src="images/triangle.png" id="rotate" />
+      <div class="rock con">
+        <div class="item">
+          <img src="images/rock.png" />
+        </div>
+      </div>
+      <div class="scissor con">
+        <div class="item">
+          <img src="images/scissor.png" />
+        </div>
+      </div>
+      <div class="paper con">
+        <div class="item">
+          <img src="images/paper.png" />
+        </div>
+      </div>
+      <div class="rock pc">
+        <div class="item">
+          <img src="images/rock.png" />
+        </div>
+      </div>
+      <div class="scissor pc">
+        <div class="item">
+          <img src="images/scissor.png" />
+        </div>
+      </div>
+      <div class="paper pc">
+        <div class="item">
+          <img src="images/paper.png" />
+        </div>
       </div>
     </div>
-    <script src="script.js"></script>
-  </body>
+    <div class="rules-btn">
+      <button class="btn-rule">RULES</button>
+    </div>
+    <div class="rule-model">
+      <div class="rule-img">
+        <div>
+          <button class="close"><img src="images/close.png" /></button>
+        </div>
+        <img src="images/rule.png" />
+      </div>
+    </div>
+
+    <div class="win-model">
+      <h1 class="winner">YOU WIN</h1>
+      <h3 class="winner">AGAINST PC</h3>
+      <button class="play">PLAY AGAIN</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
